@@ -39,21 +39,17 @@ const World = () => (
         <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5D6680]">
           <img src="/people-03.png" className="w-full h-full" />
         </div>
-        <div className="absolute top-1/2 left-[10%] w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5D6680]">
-          <div className="">
-            <img
-              src="/planet-02.png"
-              className="w-full h-full rounded-[24px] absolute top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 z-10"
-            />
-            {/* <div className="z-0">
-              <img src="/people-01.png" />
-              <img src="/people-02.png" />
-              <img src="/people-03.png" />
-            </div> */}
-          </div>
+        <div className=" absolute top-1/2 w-[109px] h-[83px] left-[10%] md:w-[167px] md:h-[117px] lg:w-[217px] lg:h-[167px] p-[6px] rounded-[24px] bg-[#5D6680]">
+          <img
+            src="/group-01.png"
+            className="object-cover w-full h-full rounded-[24px]"
+          />
         </div>
-        <div className="absolute top-1/4 right-[10%]  w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5D6680]">
-          <img src="/planet-03.png" className="w-full h-full rounded-[24px]" />
+        <div className="absolute top-1/4 right-[10%] w-[109px] h-[83px] md:w-[167px] md:h-[117px] lg:w-[217px] lg:h-[167px] p-[6px] rounded-[24px] bg-[#5D6680]">
+          <img
+            src="/group-02.png"
+            className="object-cover w-full h-full rounded-[24px]"
+          />
         </div>
       </motion.div>
     </motion.div>
